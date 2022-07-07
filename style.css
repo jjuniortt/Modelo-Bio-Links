@@ -97,6 +97,11 @@ footer {
    transition: opacity 400ms;
 }
 
+footer .inst-nome {
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+
 footer:hover {
    opacity: 1;
 }
