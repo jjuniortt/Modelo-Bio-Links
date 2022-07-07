@@ -1,4 +1,4 @@
-# Ola! Criao BioLinks. 🙃
+# Ola! Criado BioLinks. 🙃
 
 <strong>Plataforma de Estudos:</strong> "https://www.rocketseat.com.br/"<br>
 <strong>Bootcamp:</strong> HTML Web Developer - Recriando Página Inicial do Instagram.
