@@ -10,7 +10,7 @@ Para a conclusão do módulo, criamos uma aplicação a partir das duas tecnolog
 Veja abaixo as habilidades necessárias para montar essa aplicação e disponibilizar no GitHub: </br>
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/25811685/177830606-764edf81-4528-46cd-a72d-6be63dc19244.png" width="400px" />
+<img src="https://user-images.githubusercontent.com/25811685/177893406-01228d07-42bf-4552-866d-dc79c6bd24e5.png" width="400px" />
 </div>
 </br>
 
