@@ -1,7 +1,7 @@
 # Ola! Criado BioLinks. 🙃
 
 <strong>Plataforma de Estudos:</strong> "https://www.rocketseat.com.br/"<br>
-<strong>Bootcamp:</strong> HTML Web Developer - Recriando Página Inicial do Instagram.
+<strong>Programa Explorer:</strong> HTML e CSS - Criando Página BioLinks.
 
 O principal objetivo desse trabalho é montar um projeto simples, chamado BioLinks, porém contendo as principais habilidades para quem está começando a trabalhar na área da programação, montando os primeiros códigos e os primeiros projetos.
 
