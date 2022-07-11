@@ -12,14 +12,13 @@ html {
    /*variáveis*/
    --bg-color: #edf2ff;
    --text-color: #00082f;
-   --primary-color: #292929;
-   --primary-color-dark: #3a3a3a;
+   --primary-color: #4263EB;
+   --primary-color-dark: #6080ff;
 }
 
 body.dark-blue {
-   --bg-color: #161616;
+   --bg-color: #00082F;
    --text-color: #ffffff;
-
 }
 
 body.pink {
