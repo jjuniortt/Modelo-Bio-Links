@@ -37,7 +37,7 @@ body {
 .container {
    text-align: center;
    width: 300px;
-   margin: 50px auto;
+   margin: 60px auto;
 }
 
 img {
@@ -60,7 +60,7 @@ img.logo-pmjp, .logo-umti {
 }
 
 h1 {
-   font-size: 32px;
+   font-size: 26px;
    margin-top: 24px;
    margin-bottom: 8px;
 }
@@ -69,7 +69,7 @@ h1 {
    font-family: 'Roboto Mono', monospace;
    font-weight: 400;
    opacity: 0.8;
-   font-size: 18px;
+   font-size: 14px;
 }
 
 ul {
@@ -105,7 +105,7 @@ footer {
 }
 
 .inst-nome {
-   font-size: 14px;
+   font-size: 16px;
    margin-bottom: 5px;
 }
 
