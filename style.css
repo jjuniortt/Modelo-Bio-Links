@@ -105,8 +105,12 @@ footer {
 }
 
 .inst-nome {
-   font-size: 16px;
+   font-size: 18px;
    margin-bottom: 5px;
+}
+
+.inst-dev {
+   font-size: 15px;
 }
 
 footer:hover {
