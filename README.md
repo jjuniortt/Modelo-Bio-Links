@@ -9,6 +9,6 @@ Habilidades e tecnologias necessárias para montar a aplicação e disponibiliza
 [![My Skills](https://skillicons.dev/icons?i=html,css,git)](https://skillicons.dev)
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/25811685/178326568-9ef690e5-0f7c-4ff2-9533-4f8aa63eaad1.png" width="350px" />
+<img src="https://user-images.githubusercontent.com/25811685/178326568-9ef690e5-0f7c-4ff2-9533-4f8aa63eaad1.png" width="300px" />
 </div>
 </br>
