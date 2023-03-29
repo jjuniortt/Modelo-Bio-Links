@@ -1,6 +1,6 @@
 # Ola! Criado BioLinks. 🙃
 
-<strong>Tecnologias Utilizadas:</strong> HTML3 (semântico) e CSS3 - Criando Página BioLinks.
+<strong>Tecnologias Utilizadas:</strong> HTML5 (semântico) e CSS3 - Criando Página BioLinks.
 
 O principal objetivo desse trabalho, além de destacar habilidade com layout, é montar um serviço chamado BioLinks, contendo direcionamentos para projetos, serviços, documentação etc.
 
