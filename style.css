@@ -120,3 +120,16 @@ footer:hover {
 footer a {
    color: var(--text-color);
 }
+
+.inst-nome-trab {
+   font-size: 15.3px;
+}
+
+.inst-nome-secgab {
+   font-size: 13.5px;
+}
+
+.inst-nome-unid-trab {
+   font-size: 13.5px;
+   font-weight: normal;
+}
