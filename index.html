@@ -21,7 +21,7 @@
          <h1>Jonas José Tófoli Júnior</h1>
          <p class="usermail">ConectaSUS / Suporte Técnico</p>
 
-         <ul>
+         <!-- <ul>
             <li>
                <a href="https://lattes.cnpq.br/4684478363365564">Configurando DNS Local</a>
             </li>
@@ -43,10 +43,10 @@
             <li>
                <a href="https://twitter.com/jonas_tofoli">Instalar Impressoras no AGHUse</a>
             </li>
-         </ul>
+         </ul> -->
    
          <!-- bio_link_pessoal -->
-         <!-- <ul>
+         <ul>
             <li>
                <a href="https://lattes.cnpq.br/4684478363365564">Currículo Lattes</a>
             </li>
@@ -65,7 +65,7 @@
             <li>
                <a href="https://twitter.com/jonas_tofoli">Twitter</a>
             </li>
-         </ul> -->
+         </ul>
             <!-- INSERIR AQUI DADOS DA IMG
             <div>
                <img src="#" alt="" title="">
@@ -78,6 +78,43 @@
             <p class="inst-nome-trab">Secretaria de Saúde</p>
          </footer>
          -->
+
+         <script type="module">
+import Chatbox from 'https://cdn.jsdelivr.net/npm/@chatvolt/embeds@latest/dist/chatbox/index.js';
+
+const widget = await Chatbox.initBubble({
+  agentId: 'cmcve49ym0b6r12sm0r6hnp81',
+
+  //[optional] If provided will create a contact for the user and link it to the conversation
+  contact: {
+    firstName: 'Jonas',
+    lastName: 'Tófoli',
+    email: 'teste@email.com',
+    phoneNumber: '+0000000000',
+  },
+   
+  //[optional] Override initial messages
+  interface: {
+    initialMessages: [
+      'Olá, Jonas.',
+      'Como posso lhe ajudar?',
+    ],
+  },
+  
+  //[optional] Provided context will be Appended to the Agent system prompt
+  context: "O usuário, administrador do AGHUse, trabalha em uma das unidades de saúde do Estado da Paraíba.",
+});
+
+// open the chat bubble
+widget.open();
+
+// close the chat bubble
+widget.close()
+
+// or 
+widget.toggle()
+</script>
+
       </div>
    </body>
 </html>
