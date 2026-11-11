@@ -7,16 +7,16 @@
 }
 
 :root {
-  --orange: #D96000;
-  --red: #FF0033;
+  --bg: #00082F;
+  --accent: #4263EB;
   --white: #FFFFFF;
-  --ink: #1A0A00;
-  --muted: #6B5B4E;
-  --surface-soft: #FFF4EC;
-  --chip-bg: #FFF1E6;
-  --shadow-card: 0 4px 14px rgba(120, 40, 0, .12);
-  --shadow-dock: 0 12px 30px rgba(120, 40, 0, .3);
-  --shadow-mic: 0 10px 26px rgba(255, 0, 51, .45);
+  --ink: #00082F;
+  --muted: #5B6478;
+  --surface-soft: #EEF2FF;
+  --chip-bg: #E7EDFF;
+  --shadow-card: 0 4px 14px rgba(0, 8, 47, .12);
+  --shadow-dock: 0 12px 30px rgba(0, 8, 47, .3);
+  --shadow-mic: 0 10px 26px rgba(66, 99, 235, .45);
   --radius: 20px;
   --sheet-h: 440px;
   --ease: cubic-bezier(.2, .8, .2, 1);
@@ -32,7 +32,7 @@ html {
 body {
   min-height: 100vh;
   min-height: 100dvh;
-  background: var(--orange);
+  background: var(--bg);
   color: var(--ink);
   font-family: 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -98,7 +98,7 @@ svg {
   border: 4px solid var(--white);
   object-fit: cover;
   background: var(--chip-bg);
-  box-shadow: 0 8px 24px rgba(120, 40, 0, .25);
+  box-shadow: 0 8px 24px rgba(0, 8, 47, .25);
 }
 
 .profile h1 {
@@ -115,7 +115,7 @@ svg {
   padding: 7px 14px;
   border-radius: 999px;
   background: var(--white);
-  color: var(--red);
+  color: var(--accent);
   font-size: 13px;
   font-weight: 700;
 }
@@ -159,7 +159,7 @@ svg {
   width: 44px;
   height: 44px;
   border-radius: 14px;
-  background: var(--red);
+  background: var(--accent);
   color: var(--white);
 }
 
@@ -191,7 +191,7 @@ svg {
   height: 32px;
   border-radius: 50%;
   background: var(--chip-bg);
-  color: var(--red);
+  color: var(--accent);
 }
 
 .go svg {
@@ -234,8 +234,8 @@ svg {
 
 .dock-btn:hover,
 .dock-btn:active {
-  background: #FFE8EC;
-  color: var(--red);
+  background: #E7EDFF;
+  color: var(--accent);
 }
 
 .mic {
@@ -249,7 +249,7 @@ svg {
   height: 84px;
   margin-left: -42px;
   border-radius: 50%;
-  background: var(--red);
+  background: var(--accent);
   border: 6px solid var(--white);
   box-shadow: var(--shadow-mic);
   color: var(--white);
@@ -329,7 +329,7 @@ body.voice-open .dock {
 .voice-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(120, 30, 0, .45);
+  background: rgba(0, 8, 47, .45);
   opacity: 0;
   transition: opacity .35s var(--ease);
 }
@@ -362,7 +362,7 @@ body.voice-open .dock {
   height: 5px;
   margin: 0 auto;
   border-radius: 9px;
-  background: #E3D6CC;
+  background: #C7D2F7;
 }
 
 .voice-status {
@@ -370,7 +370,7 @@ body.voice-open .dock {
   align-items: center;
   gap: 8px;
   margin-top: 18px;
-  color: var(--red);
+  color: var(--accent);
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1.2px;
@@ -381,7 +381,7 @@ body.voice-open .dock {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--red);
+  background: var(--accent);
 }
 
 body.is-listening .live {
@@ -420,7 +420,7 @@ body.is-listening .live {
   width: 6px;
   height: 12px;
   border-radius: 6px;
-  background: var(--red);
+  background: var(--accent);
 }
 
 .wave.is-active i {
@@ -470,12 +470,12 @@ body.is-listening .live {
 }
 
 .btn.ghost {
-  background: #F3EBE5;
+  background: #EEF2FF;
   color: var(--ink);
 }
 
 .btn.primary {
-  background: var(--red);
+  background: var(--accent);
   color: var(--white);
 }
 
